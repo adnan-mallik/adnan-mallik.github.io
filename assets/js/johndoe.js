@@ -148,3 +148,14 @@ function initMap() {
       ]
     });
 }
+
+
+
+// download resume
+$('#print_resume, #download_cv').click(function() {
+  downloadResume();
+});
+
+function downloadResume() {
+    window.open('https://drive.google.com/file/d/1bd-AcBuG_S37j-I0pcph9xuVpDHCfxHL/view?usp=sharing', '_blank');
+}
